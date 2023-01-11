@@ -10,7 +10,7 @@ import {styles} from './styles';
 
 export const OneScreenExample = () => {
   const netInfo = useNetInfo();
-  
+
   return (
     <SafeAreaView style={styles.container}>
       <Text style={{fontSize: 20, fontWeight: '700'}}>
