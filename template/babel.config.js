@@ -7,20 +7,19 @@ module.exports = {
         root: ['./src'],
         extensions: ['.ios.js', '.android.js', '.js', '.ts', '.tsx', '.json'],
         alias: {
-          "@assets": "./assets",
-          "@constants": "./src/constants",
-          "@components": "./src/components",
-          "@screens": "./src/screens",
-          "@config": "./src/config",
-          "@utils": "./src/utils",
-          "@theme": "./src/theme",
-          "@services": "./src/services",
-          "@navigation": "./src/navigation",
-          "@hooks": "./src/hooks",
-          "@redux": "./src/redux"
-        }
-      }
-    ]
-  ]
+          '@assets': './assets',
+          '@constants': './src/constants',
+          '@components': './src/components',
+          '@screens': './src/screens',
+          '@config': './src/config',
+          '@utils': './src/utils',
+          '@theme': './src/theme',
+          '@services': './src/services',
+          '@navigation': './src/navigation',
+          '@hooks': './src/hooks',
+          '@redux': './src/redux',
+        },
+      },
+    ],
+  ],
 };
-
